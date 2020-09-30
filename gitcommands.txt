@@ -1,0 +1,32 @@
+git init  -> inicia um repo.
+git status -> status
+git add FILE -> sobe um arquivo
+git commit file -m 'say' -> commita
+git rm -> remove arquivo
+git log -> mostra historico
+git mv -> move / renomeia
+git checkout -> remove do add e da um rollback no arquivo
+git reset --hard -> reseta a branch pro ultimo push
+git branch -> mostra branches
+git branch <nome> ->cria branch com nome
+git branch -d <nome> -> deleta branch
+git checkout  <nome> -> muda pra branch, flag -b cria e muda 
+git merge <nome> -> junta a branch atual a branch <nome>
+git stash -> salva a branch e reseta pro repo
+git stash list -> lista de stashs
+git stash apply <num> -> restaura a stash
+git stash drop <num> -> remove a stash <num>
+git stash clear -> limpa todas stashs
+git tag -a <nome> -m "msg" -> cria um checkpoint 
+git checkout <tag> -> altera para a tag escolhida
+git push origin <tag> -> pusha a tag
+git fetch -a -> atualiza em busca de novas branches
+git submodule add <url-repositorio> -> add a submodule (repo)
+git push --recurse-submodules=on-demand
+git show -> mostra detalhes
+git diff <branch> -> compara branches
+git shotlog -> da info resumida sobre o repo 
+git gc -> remove arquivos desnecessarios do repo
+git fsck -> verifica corrupções em arquivos
+git reflog -> mapea todos os passos no repo
+git archive --format <formato> --output <nome.formato> <branchname>
